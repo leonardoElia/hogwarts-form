@@ -10,6 +10,7 @@
 <body>
     <header class="header">
         <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
         
         <form class="trybewarts-login">
 
@@ -20,10 +21,78 @@
             <input type="password" id="senha" class=" inputs" name="password" placeholder="Senha">
 
             <button id="botaoHeader" type="submit">Entrar</button>
-
-
+            
          </form>
     </header>
+
+    <main>
+
+       <form id="evaluation-form">
+
+        <div class="nomes">
+        <label for="input-name">Nome</label>
+        <input type="text" id="input-name" placeholder="Nome">
+        
+
+        <label for="input-lastname">Sobrenome</label>
+        <input type="text" id="input-lastname" placeholder="Sobrenome">
+        </div>
+
+        <div class="casa">
+        <label for="input-lastname">Email</label>
+        <input type="email" id="input-email" placeholder="Email">
+
+        <select id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+        </div>
+
+        <label id="label-family">Qual sua família?</label>
+        
+        <label for="front">Front-end</label>
+        <input type="radio" name="family" id="front" value="Frontend">
+
+        <label for="back">Back-end</label>
+        <input type="radio" name="family" id="back" value="Backend">
+       
+        <label for="full">Front-end</label>
+        <input type="radio" name="family" id="full" value="FullStack">
+   
+        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+
+         <input type="checkbox" value="HoFs" class="subject">HoFs
+         <input type="checkbox" value="Jest" class="subject">Jest
+         <input type="checkbox" value="Promises" class="subject">Promises
+         <input type="checkbox" value="React" class="subject">React
+         <input type="checkbox" value="SQL" class="subject">SQL
+         <input type="checkbox" value="Python" class="subject">Python
+
+         <label id="label-rate">Como você avalia a Trybewarts?</label>
+
+        <div class="avaliacao">
+         <input type="radio" value="1" name="rate">1
+         <input type="radio" value="2" name="rate">2
+         <input type="radio" value="3" name="rate">3
+         <input type="radio" value="4" name="rate">4
+         <input type="radio" value="5" name="rate">5
+         <input type="radio" value="6" name="rate">6
+         <input type="radio" value="7" name="rate">7
+         <input type="radio" value="8" name="rate">8
+         <input type="radio" value="9" name="rate">9
+         <input type="radio" value="10" name="rate">
+        </div>
+        
+
+        
+       </form> 
+
+       <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">
+ 
+      
+    </main>
 
     <script src="script.js"></script>
 </body>
