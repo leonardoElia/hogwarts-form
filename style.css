@@ -2,37 +2,35 @@ body {
   margin: 0;
 }
 
-.header { 
+.header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  position: fixed;
   width: 100%;
-  top: 0%;
   justify-content: space-between;
   align-items: center;
 }
 
 .trybewarts-header-logo {
+  display: flex;
   width: 50px;
   height: 50px;
-  margin-left: 10px;
 }
 
 .inputs {
   width: 123px;
-  height: 40px;
+  height: 25px;
   font-size: 16px;
-  border: 1px solid blue;
   border-radius: 10px;
 }
 
 .labels {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .trybewarts-login {
   display: flex;
-  align-items: center; 
+  align-items: center;
+  padding-right: 25px;
 }
 
 input:focus {
@@ -40,21 +38,40 @@ input:focus {
 }
 
 #evaluation-form {
-  display: flex;
   width: 675px;
+  display: flex;
   flex-direction: column;
-  margin-top: 150px;
+  margin-top: 50px;
+}
+
+#materias {
+  display: flex;
+  flex-direction: row;
+}
+
+#familia {
+  display: flex;
+  flex-direction: column;
+}
+
+.fam {
+  display: flex;
+}
+
+.famili-mat {
+  display: flex;
+  margin: 2px solid black;
 }
 
 main {
   display: flex;
+  justify-content: space-evenly; /* space divide espaço igual entre elementos e margens */
 }
 
 #trybewarts-forms-logo {
-  height: 500px; 
-  position: relative;
-  margin-top: 80px;
-  margin-left: 650px;
+  display: flex;
+  height: 500px;
+  margin-top: 50px;
 }
 
 .nomes {
@@ -67,4 +84,9 @@ main {
 
 .avaliacao {
   display: flex;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
 }
