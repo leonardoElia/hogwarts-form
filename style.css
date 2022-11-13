@@ -6,6 +6,7 @@ body {
   display: flex;
   background-color: rgb(50, 167, 145);
   width: 100%;
+  height: 4.6rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -14,6 +15,7 @@ body {
   display: flex;
   width: 50px;
   height: 50px;
+  margin-left: 25px;
 }
 
 .inputs {
@@ -21,6 +23,13 @@ body {
   height: 25px;
   font-size: 16px;
   border-radius: 10px;
+  border: 1px black solid;
+  margin-left: 11px;
+  margin-right: 13px;
+}
+
+.inputs:focus {
+  border: 1px blue solid;
 }
 
 .labels {
@@ -86,7 +95,150 @@ main {
   display: flex;
 }
 
-footer {
-  text-align: center;
-  margin-top: 50px;
+.inputsForm {
+  border-radius: 5px;
+  border: 1px black solid;
 }
+
+.inputsForm:focus {
+  border: 1px blue solid
+}
+#reset-btn {
+  margin-top: 15px;
+}
+
+.labelNome {
+ margin-right: 10px;
+}
+
+.labelSobrenome {
+  margin-right: 7px;
+  margin-left: 15px;
+}
+
+.labelEmail {
+margin-right: 15px;
+margin-top: 15px;
+}
+
+#input-email {
+  margin-top: 15px;
+  margin-right: 100px;
+}
+
+#house {
+  margin-top: 17px;
+  border-radius: 5px;
+}
+
+.concorda {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#label-infos {
+  margin-left: 5px;
+}
+
+#label-family {
+margin-top: 12px;
+}
+
+#label-content {
+  margin-top: 9px;
+}
+
+.subjectTwo {
+  margin-left: 8px;
+}
+
+.subjectTre {
+margin-left: 8px;
+}
+
+.subjectFor {
+  margin-left: 8px
+}
+
+.subjectFive {
+  margin-left: 8px
+}
+
+.subjectSex {
+  margin-left: 8px
+}
+
+#label-rate {
+  margin-top: 9px;
+}
+
+#front {
+margin-left: 5px;
+}
+
+#back {
+margin-left: 9.5px;
+}
+
+#full{
+margin-left: 5px;
+}
+
+#um {
+  margin-right: 5px;
+}
+
+#dois {
+  margin-right: 5px;
+}
+
+#tres {
+  margin-right: 5px;
+}
+
+#quatro {
+  margin-right: 5px;
+}
+
+#cinco {
+  margin-right: 5px;
+}
+
+#seis {
+  margin-right: 5px;
+}
+
+#sete {
+  margin-right: 5px;
+}
+
+#oito {
+  margin-right: 5px;
+}
+
+#nove {
+  margin-right: 5px;
+}
+
+#dez {
+  margin-right: 5px;
+}
+
+.textarea {
+  margin-top: 8px;
+}
+
+#icone {
+position:absolute;
+margin-top: 17px;
+margin-left: 61px;
+}
+
+
+
+
+
+
+
+
+
